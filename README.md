@@ -1,5 +1,7 @@
 # Beyond The Score — Cricket Analytics Dashboard
 
+> 🌐 **Live Demo:** [https://beyond-the-score-gamma.vercel.app/](https://beyond-the-score-gamma.vercel.app/)
+
 A modern, high-performance **Cricket Analytics & Match Intelligence Dashboard**. *Beyond The Score* processes ball-by-ball datasets from major tournaments (IPL & ICC Men's Cricket World Cups) to deliver real-time data visualisations, phase analytics, and contextual AI-assisted match summaries.
 
 ---
@@ -50,26 +52,24 @@ The backend Express proxy (`server/index.js`) secures external AI services and c
 ## Repository Structure
 
 ```
-Beyond The Score/
-└── beyondthescore/             # Primary Application Root
-    ├── public/                 # Static Assets
-    ├── scripts/                # Data ingestion & build scripts
-    │   ├── build-ipl-matches.mjs
-    │   ├── build-players-json.mjs
-    │   └── build-wc-matches.mjs
-    ├── server/                 # Express backend proxy & security tests
-    │   ├── index.js
-    │   └── narrate.test.mjs
-    ├── src/
-    │   ├── components/         # React UI Components
-    │   ├── data/               # Ingested datasets and data loaders
-    │   ├── utils/              # Data parsers and utility functions
-    │   ├── App.jsx             # Main Application Entry
-    │   ├── main.jsx            # React root mount
-    │   └── index.css           # Core styles and design system
-    ├── .env.example            # Environment setup template
-    ├── package.json
-    └── vite.config.js
+├── public/                 # Static Assets
+├── scripts/                # Data ingestion & build scripts
+│   ├── build-ipl-matches.mjs
+│   ├── build-players-json.mjs
+│   └── build-wc-matches.mjs
+├── server/                 # Express backend proxy & security tests
+│   ├── index.js
+│   └── narrate.test.mjs
+├── src/
+│   ├── components/         # React UI Components
+│   ├── data/               # Ingested datasets and data loaders
+│   ├── utils/              # Data parsers and utility functions
+│   ├── App.jsx             # Main Application Entry
+│   ├── main.jsx            # React root mount
+│   └── index.css           # Core styles and design system
+├── .env.example            # Environment setup template
+├── package.json
+└── vite.config.js
 ```
 
 ---
@@ -78,8 +78,8 @@ Beyond The Score/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Stranger0071/Beyond-The-Score.git
-cd "Beyond The Score/beyondthescore"
+git clone https://github.com/ReenkRathod/Beyond-the-score-.git
+cd Beyond-the-score-
 ```
 
 ### 2. Install Dependencies
